@@ -85,7 +85,7 @@ def main():
     getData()
 
     j = 0
-    # Bulding the body of the email
+    # Building the body of the email
     while j < len(villes):
         flag = True
         temp = "projet N"+str(j+1)+" => "+objets[j]+"\n"+acheteurs[j]+"\nConsulter le projet ici : "+liens[j]+"\n\n"
